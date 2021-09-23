@@ -53,21 +53,35 @@ img:hover {
   /* padding: 0 5px; */
 }
 /* create your tile classes! we recommend .small .med .large */
-.small {
+.small-top {
   float: left;
   width: 33.33333%;
   height: 33.33333%;
   padding: 5px 5px;
 }
 
-.medium {
+.medium-top{
   float: right;
   width: 66.66666%;
   padding: 5px 5px;
 }
 
-.large {
+.medium-middle {
+  float: left;
+  width: 66.66666%;
+  padding: 5px 5px;
+}
 
+.small-middle {
+  float: right;
+  width: 33.33333%;
+  height: 33.33333%;
+  padding: 5px 5px;
+}
+
+.large {
+  width: 90%;
+  
 }
 
 * {
